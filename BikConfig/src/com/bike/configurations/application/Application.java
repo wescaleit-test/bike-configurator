@@ -1,4 +1,4 @@
-package com.bike.configurations.restservice;
+package com.bike.configurations.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
