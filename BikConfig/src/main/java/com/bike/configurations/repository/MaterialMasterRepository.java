@@ -5,6 +5,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.bike.configurations.entity.tbl_master_material;
 
-@RepositoryRestResource(path = "/MaterialMaster")
+//@RepositoryRestResource(path = "/MaterialMaster")
 public interface MaterialMasterRepository extends JpaRepository<tbl_master_material, String> {
 }
