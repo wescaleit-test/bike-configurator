@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-title>BOM Header List</mat-card-title>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let BOMHeader of bikeHeader"  (click)="onSelect(BOMHeader)">
+        <!-- <img mat-list-avatar src="{{car.giphyUrl}}" alt="{{car.name}}"> -->
+        <h3 mat-line>{{BOMHeader.bomId}}</h3>
+        <h3 mat-line>{{BOMHeader.bomType}}</h3>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>
